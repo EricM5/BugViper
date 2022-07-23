@@ -4,62 +4,120 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Subject)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Priority)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DatePosted)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DueDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ExpectedHours)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PostedBy)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Subject)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Priority)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DatePosted)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DueDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ExpectedHours)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PostedBy)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/css/snake.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <!--Snake CSS-->
+    
+</head>
+<body>
+    
+    
+    <div class="content">
+       
+        <div class="container">
+            <h2 class="mb-5">Table #6</h2>
+
+
+            <div class="table-responsive">
+                <p>
+                    <a style="-ms-transform: scale(0.5,0.5); -webkit-transform:scale(0.5,0.5); transform: scale(0.5,0.5);" href="#" class="animated-button1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Add Bug
+                    </a>
+                </p>
+                <table class="table table-striped custom-table">
+                    <thead>
+                        <tr>
+
+                            <th style="color:darkred;" scope="col">Bug Description</th>
+                            <th style="color:darkred;" scope="col">Priority</th>
+                            <th style="color:darkred;" scope="col">Posted By</th>
+                            <th style="color:darkred;" scope="col">Date Posted</th>
+                            <th style="color:darkred;" scope="col">Due Date</th>
+                            <th style="color:darkred;" scope="col">Expected Hours</th>
+                            <th style="color:darkred;" scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr scope="row">
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Subject)
+                                </td>
+                                <td><a href="#">
+                                        @if (item.Priority >= 3)
+                                        {
+                                            <b style="color:red;">
+                                                URGENT
+                                            </b>
+                                        }
+                                        else if (item.Priority == 2)
+                                        {
+                                            <b style="color:yellow;">
+                                                MEDIUM
+                                            </b>
+                                        }
+                                        else
+                                        {
+                                            <b style="color:lawngreen;">
+                                                LOW
+                                            </b>
+                                        }
+                                </a></td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PostedBy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.DatePosted)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.DueDate)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                        
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+</html>

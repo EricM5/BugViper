@@ -5,12 +5,100 @@
       "PackagePath": "staticwebassets\\BugViper.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\Logo\\BugViperLogoTransparent.png",
+      "PackagePath": "staticwebassets\\Logo\\BugViperLogoTransparent.png"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\Logo\\ViperBugActuallyTransparent.png",
+      "PackagePath": "staticwebassets\\Logo\\ViperBugActuallyTransparent.png"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
       "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\snake.css",
+      "PackagePath": "staticwebassets\\css\\snake.css"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
       "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\js\\site.js",
