@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using BugViper.Models;
 
 namespace BugViper.Data
 {
@@ -9,5 +10,6 @@ namespace BugViper.Data
             : base(options)
         {
         }
+        public DbSet<BugViper.Models.Bug>? Bug { get; set; }
     }
 }

@@ -19,6 +19,30 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Bugs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVnc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Bugs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVnc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Bugs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVnc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Bugs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVnc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Bugs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVnc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Bugs/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVnc1xTaG93U2VhcmNoRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Eric/Desktop/Projects/BugViper/BugViper/BugViper/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
