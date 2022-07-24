@@ -8,23 +8,25 @@ using Microsoft.EntityFrameworkCore;
 using BugViper.Data;
 using BugViper.Models;
 using Microsoft.AspNetCore.Authorization;
-
+using Microsoft.AspNetCore.Identity;
 namespace BugViper.Controllers
 {
     public class BugsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public BugsController(ApplicationDbContext context)
+        public BugsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Bugs
         public async Task<IActionResult> Index()
         {
-              return _context.Bug != null ? 
-                          View(await _context.Bug.ToListAsync()) :
+              return _context.Bug != null ?
+                            View("Index", await _context.Bug.Where(obj => (obj.PostedBy.Equals(_userManager.GetUserId(HttpContext.User)))).ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Bug'  is null.");
         }
         //GET: Bugs/ShowSearchForm
@@ -57,8 +59,11 @@ namespace BugViper.Controllers
         }
 
         // GET: Bugs/Create
+        [Authorize]
         public IActionResult Create()
         {
+            //ViewBag.userEmail = _userManager.(HttpContext.User);
+            ViewBag.userId = _userManager.GetUserId(HttpContext.User);
             return View();
         }
 
@@ -71,6 +76,7 @@ namespace BugViper.Controllers
         {
             if (ModelState.IsValid)
             {
+                bug.PostedBy = _userManager.GetUserId(HttpContext.User);
                 _context.Add(bug);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

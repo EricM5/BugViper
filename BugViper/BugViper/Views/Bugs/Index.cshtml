@@ -38,7 +38,9 @@
 
             <div class="table-responsive">
                 <p>
-                    <a style="-ms-transform: scale(0.5,0.5); -webkit-transform:scale(0.5,0.5); transform: scale(0.5,0.5);" href="#" class="animated-button1">
+                    
+                    <a style="-ms-transform: scale(0.5,0.5); -webkit-transform:scale(0.5,0.5); transform: scale(0.5,0.5);" class="animated-button1"
+                       asp-action="Create">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -87,7 +89,7 @@
                                         }
                                 </a></td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.PostedBy)
+                                    @Html.DisplayFor(modelItem => item.ForumPoster)
                                 </td>
                                 <td>
                                     @Html.DisplayFor(modelItem => item.DatePosted)

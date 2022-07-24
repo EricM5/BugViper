@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u6gTh0lEOQdAu+oy3an/P58SErb6dW2FblgPjfBIt+s=",
+  "Hash": "VR38KF+Kh2TnQbrL7S9iQDV7B95HsIF4OCUPrn1n0ZY=",
   "Source": "BugViper",
   "BasePath": "_content/BugViper",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\HomePage\\homepage.css",
+      "SourceId": "BugViper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\",
+      "BasePath": "_content/BugViper",
+      "RelativePath": "css/HomePage/homepage.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\HomePage\\homepage.css"
     },
     {
       "Identity": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\owl.carousel.min.css",

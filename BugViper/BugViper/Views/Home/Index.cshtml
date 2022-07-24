@@ -1,8 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/HomePage/homepage.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="text-center">
-    <h1>Welcome to BugViper!</h1>
-    <img src="~/Logo/ViperBugActuallyTransparent.png" />
-</div>
+<svg viewBox="0 0 960 300">
+	<symbol id="s-text">
+		<text text-anchor="middle" x="50%" y="80%">BugViper</text>
+    <text text-anchor="middle" x="52%" y="80%">BugViper </text>
+    
+	</symbol>
+
+	<g class = "g-ants">
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+	</g>
+
+	<h3 style="color:black;">A desktop Web-application to track and resolve bugs for companies aiming to push code to production.</h3>
+
+</svg>

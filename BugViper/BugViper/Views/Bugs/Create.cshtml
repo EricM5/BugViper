@@ -5,7 +5,7 @@
 }
 
 <h1>Create</h1>
-
+<h3>@ViewBag.userEmail</h3>
 <h4>Bug</h4>
 <hr />
 <div class="row">
@@ -37,18 +37,17 @@
                 <input asp-for="ExpectedHours" class="form-control" />
                 <span asp-validation-for="ExpectedHours" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="PostedBy" class="control-label"></label>
-                <input asp-for="PostedBy" class="form-control" />
-                <span asp-validation-for="PostedBy" class="text-danger"></span>
-            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
+            @{
+                //Model.PostedBy = ViewBag.userId.ToString();
+                //Model.PostedBy = @ViewBag.userId!;
+            }
         </form>
     </div>
 </div>
-
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
