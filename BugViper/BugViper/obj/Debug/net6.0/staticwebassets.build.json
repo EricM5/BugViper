@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VR38KF+Kh2TnQbrL7S9iQDV7B95HsIF4OCUPrn1n0ZY=",
+  "Hash": "DYZTLATo5gLSvyD+GfYqOOBHGLR8iX9UBjh6q4hUOL8=",
   "Source": "BugViper",
   "BasePath": "_content/BugViper",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\createEditForm.css",
+      "SourceId": "BugViper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\",
+      "BasePath": "_content/BugViper",
+      "RelativePath": "css/createEditForm.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\createEditForm.css"
     },
     {
       "Identity": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\HomePage\\homepage.css",

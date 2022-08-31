@@ -72,11 +72,12 @@ namespace BugViper.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Subject,Priority,DatePosted,DueDate,ExpectedHours,PostedBy")] Bug bug)
+        public async Task<IActionResult> Create([Bind("Id,Subject,Priority,DatePosted,DueDate,ExpectedHours,PostedBy,ForumPoster")] Bug bug)
         {
             if (ModelState.IsValid)
             {
                 bug.PostedBy = _userManager.GetUserId(HttpContext.User);
+                bug.DatePosted = DateTime.Now;
                 _context.Add(bug);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -107,6 +108,7 @@ namespace BugViper.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Subject,Priority,DatePosted,DueDate,ExpectedHours,PostedBy")] Bug bug)
         {
+            
             if (id != bug.Id)
             {
                 return NotFound();

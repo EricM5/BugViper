@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\createEditForm.css",
+      "PackagePath": "staticwebassets\\css\\createEditForm.css"
+    },
+    {
       "Id": "C:\\Users\\Eric\\Desktop\\Projects\\BugViper\\BugViper\\BugViper\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
